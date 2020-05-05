@@ -3,7 +3,7 @@
 REGION=eu-west-1
 PROJECT=devops
 STAGE=dev
-STACK_NAME=${PROJECT}-${STAGE}-hello-custom-resource-3
+STACK_NAME=${PROJECT}-${STAGE}-hello-custom-resource
 TEMPLATE=template.yaml
 
 aws cloudformation create-stack \
